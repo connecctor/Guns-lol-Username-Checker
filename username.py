@@ -155,7 +155,7 @@ def main_menu():
             input(Fore.WHITE + "\nPress Enter to return to the main menu..." + Style.RESET_ALL)
 
         elif choice == '3':
-            print(Fore.GREEN + "Exiting... Thank you for using the Username Checker Tool!" + Style.RESET_ALL)
+            print(Fore.GREEN + "Exiting... Thank you for using 765's Guns.lol Username Checker!" + Style.RESET_ALL)
             break
 
         else:
