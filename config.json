@@ -1,0 +1,8 @@
+{
+    "delay": 10.0,
+    "max_retries": 1,
+    "input_file": "usernames.txt",
+    "output_file": "results.csv",
+    "append_csv": false,
+    "batch_size": 100
+}
