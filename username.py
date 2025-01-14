@@ -124,10 +124,16 @@ def check_usernames_from_file(filename, delay, max_retries, batch_size):
         print(Fore.RED + f"Errors: {error_count}" + Style.RESET_ALL)
 
 
-ASCII_LOGO = Fore.RED + r"""
-╔╦╗╔═╗╔═╗╔╦╗╦ ╦╦═╗╔╗ ╔═╗╔╦╗╦╔═╗╔╗╔  ╔╗╔╔═╗╔╦╗╦╔═╗╔╗╔
-║║║╠═╣╚═╗ ║ ║ ║╠╦╝╠╩╗╠═╣ ║ ║║ ║║║║  ║║║╠═╣ ║ ║║ ║║║║
-╩ ╩╩ ╩╚═╝ ╩ ╚═╝╩╚═╚═╝╩ ╩ ╩ ╩╚═╝╝╚╝  ╝╚╝╩ ╩ ╩ ╩╚═╝╝╚╝
+ASCII_LOGO = Fore.WHITE + r"""
+ ▄█  ███▄▄▄▄      ▄████████  ▄█  ████████▄   ▄█   ▄██████▄  ███    █▄     ▄████████ 
+███  ███▀▀▀██▄   ███    ███ ███  ███   ▀███ ███  ███    ███ ███    ███   ███    ███ 
+███▌ ███   ███   ███    █▀  ███▌ ███    ███ ███▌ ███    ███ ███    ███   ███    █▀  
+███▌ ███   ███   ███        ███▌ ███    ███ ███▌ ███    ███ ███    ███   ███        
+███▌ ███   ███ ▀███████████ ███▌ ███    ███ ███▌ ███    ███ ███    ███ ▀███████████ 
+███  ███   ███          ███ ███  ███    ███ ███  ███    ███ ███    ███          ███ 
+███  ███   ███    ▄█    ███ ███  ███   ▄███ ███  ███    ███ ███    ███    ▄█    ███ 
+█▀    ▀█   █▀   ▄████████▀  █▀   ████████▀  █▀    ▀██████▀  ████████▀   ▄████████▀  
+                                                                                    
 """ + Style.RESET_ALL
 
 def main_menu():
@@ -155,7 +161,7 @@ def main_menu():
             input(Fore.WHITE + "\nPress Enter to return to the main menu..." + Style.RESET_ALL)
 
         elif choice == '3':
-            print(Fore.GREEN + "Exiting... Thank you for using 765's Guns.lol Username Checker!" + Style.RESET_ALL)
+            print(Fore.GREEN + "Exiting... Thank you for using the Username Checker Tool!" + Style.RESET_ALL)
             break
 
         else:
@@ -163,5 +169,5 @@ def main_menu():
             time.sleep(1)
 
 if __name__ == "__main__":
-    set_window_title("765MN - Guns.lol Username Checker")
+    set_window_title("Insidious - Guns.lol Username Checker")
     main_menu()
