@@ -6,8 +6,12 @@
   <img src="https://cdn.nfo.lol/ConnectorPFP.jpg" style="width: 60%">
 </p>
 
-##  
+##
 
+### 🏆Application Version
+- Version 1.20
+
+##
 
 ### 🔨 Usage  
 - #### 💻 Downloading
